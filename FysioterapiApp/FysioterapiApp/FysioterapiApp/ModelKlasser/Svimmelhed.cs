@@ -4,7 +4,8 @@ using System.Text;
 
 namespace FysioterapiApp.ModelKlasser
 {
-    class Svimmelhed
+    public class Svimmelhed
     {
+        public int DizzyCounter { get; set; }
     }
 }
