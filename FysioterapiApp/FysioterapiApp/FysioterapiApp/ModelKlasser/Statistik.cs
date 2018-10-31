@@ -4,7 +4,10 @@ using System.Text;
 
 namespace FysioterapiApp.ModelKlasser
 {
-    class Statistik
+    public class Statistik
     {
+        public DateTime dateTime { get; set; }
+
+        public string description { get; set; }
     }
 }

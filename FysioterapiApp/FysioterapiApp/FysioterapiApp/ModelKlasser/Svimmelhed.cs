@@ -6,6 +6,6 @@ namespace FysioterapiApp.ModelKlasser
 {
     public class Svimmelhed
     {
-        public int DizzyCounter { get; set; }
+        public int dizzyCounter { get; set; }
     }
 }

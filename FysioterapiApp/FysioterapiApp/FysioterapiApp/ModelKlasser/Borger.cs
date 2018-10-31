@@ -7,17 +7,17 @@ namespace FysioterapiApp.ModelKlasser
     public class Borger
     {
 
-        public string FName { get; set; }
+        public string fName { get; set; }
 
-        public string LName { get; set; }
+        public string lName { get; set; }
 
-        public int Age { get; set; }
+        public int age { get; set; }
 
-        public string Address { get; set; }
+        public string address { get; set; }
 
-        public int Ssn { get; set; }
+        public int ssn { get; set; }
 
-        public string Email { get; set; }
+        public string email { get; set; }
 
     }
 }
