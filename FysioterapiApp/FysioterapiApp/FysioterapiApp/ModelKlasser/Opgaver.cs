@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Timers;
 
 namespace FysioterapiApp.ModelKlasser
 {
-    class Opgaver
+    public class Opgaver
     {
+
+        public Timer timer { get; set; }
+
     }
 }
