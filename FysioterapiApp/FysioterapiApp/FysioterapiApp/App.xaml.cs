@@ -13,7 +13,7 @@ namespace FysioterapiApp
 		{
 			InitializeComponent();
 
-			MainPage = new FysioterapiApp.MainPage();
+            MainPage = new FysioterapiApp.UI_Klasser.Login();
 		}
 
 		protected override void OnStart ()

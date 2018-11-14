@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage BackgroundColor="#127ac7"
+<ContentPage BackgroundImage="grey.png"
              xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="LayoutDemo.GridLayout2"
@@ -12,10 +12,10 @@
             <RowDefinition Height="40" />
         </Grid.RowDefinitions>
         <StackLayout Grid.Row="0" VerticalOptions="Center">
-            <Label Text="Welcome to Xamarin" FontSize="30" TextColor="White" HorizontalOptions="Center" />
-            <Label Text="Cross-platform apps made easy" FontSize="18" TextColor="White" HorizontalOptions="Center" />
+            <Label Text="Welcome to Xamarin" FontSize="Default" TextColor="White" HorizontalOptions="Center" />
+            <Label Text="Cross-platform apps made easy" FontSize="Default" TextColor="White" HorizontalOptions="Center" />
         </StackLayout>
-        <Button Grid.Row="1" Text="Login" BackgroundColor="#1dabf0" TextColor="White"  />
-        <Button Grid.Row="2" Text="Register" BackgroundColor="#1dabf0" TextColor="White" />
+        <Button Grid.Row="1" Text="Login" BackgroundColor="Blue" TextColor="White"  />
+        <Button Grid.Row="2" Text="Opret Profil" BackgroundColor="Blue" TextColor="White" />
     </Grid>
 </ContentPage>
