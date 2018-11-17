@@ -54,6 +54,7 @@
     <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="25.4.0.2" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Database\SQLiteDB.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -80,7 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FysioterapiApp\FysioterapiApp.csproj">
-      <Project>{16AD1155-BE45-4591-87B4-115251F4279A}</Project>
+      <Project>{21afd1e1-8e7c-46b2-9b13-3d6faac21605}</Project>
       <Name>FysioterapiApp</Name>
     </ProjectReference>
   </ItemGroup>

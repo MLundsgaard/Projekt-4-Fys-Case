@@ -5,9 +5,10 @@ using System.Text;
 
 using Xamarin.Forms;
 
+
 namespace FysioterapiApp
 {
-	public partial class App : Application
+    public partial class App : Application
 	{
 		public App ()
 		{
@@ -30,5 +31,5 @@ namespace FysioterapiApp
 		{
 			// Handle when your app resumes
 		}
-	}
+    }
 }
